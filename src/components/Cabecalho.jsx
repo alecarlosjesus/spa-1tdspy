@@ -1,9 +1,10 @@
+import styles from "./Cabecalho.module.css";
 
 export default function Cabecalho() {
   return (
     <>
         
-     <header>
+     <header className={styles.container}>
         <nav>
             <ul>
                 <li><a href="#">Item-1</a></li>
